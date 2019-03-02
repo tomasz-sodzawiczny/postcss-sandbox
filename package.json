@@ -1,8 +1,8 @@
 {
-  "name": "postcss-plugin-tester",
+  "name": "postcss-sandbox",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Sandbox for playing around with various PostCSS plugins",
+  "keywords": ["postcss", "postcss-plugin", "sandbox"],
   "main": "src/index.js",
   "dependencies": {
     "postcss": "7.0.14",

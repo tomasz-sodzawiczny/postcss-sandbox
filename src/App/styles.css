@@ -1,0 +1,43 @@
+.box {
+  width: 100%;
+  border: 1px solid black;
+  padding: 8px;
+
+  font-family: monospace;
+  font-size: 14px;
+
+  margin-bottom: 10px;
+}
+.box__header {
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: normal;
+  color: gray;
+
+  padding-bottom: 10px;
+}
+.box__header::before {
+  content: "// ";
+}
+
+.box--error {
+  background: salmon;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h2,
+pre,
+textarea {
+  padding: 0;
+  margin: 0;
+}
+textarea {
+  resize: none;
+}

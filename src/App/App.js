@@ -42,7 +42,6 @@ class App extends React.Component {
           className="box code"
           value={this.state.input}
           onChange={this.onInputChange}
-          autoFocus
         />
 
         <PostCSS plugins={this.props.plugins} input={this.state.input}>
